@@ -17,6 +17,13 @@ import org.testng.annotations.Test;
 import static sff_practice10_final_RTM.DriverType.FIREFOX;
 import static sff_practice10_final_RTM.DriverType.CHROME;
 
+/***
+ * 
+ * @author focalpt
+ *
+ * interface Driver
+ * 
+ */
 interface Driver {
 	public WebDriver getWebDriver();
 }
