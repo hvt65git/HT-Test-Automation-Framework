@@ -28,6 +28,16 @@ interface Driver {
 	public WebDriver getWebDriver();
 }
 
+/***
+ * 
+ * @author focalpt
+ *
+ * enum DriverType implements Driver: Defines the driver type constants
+ * for example CHROME, FIREFOX, etc and provides an implementation for
+ * each associated getWebDriver() method that was specified in the
+ * Driver interface
+ *
+ */
 enum DriverType implements Driver {
 	CHROME{
 		public WebDriver getWebDriver(){
@@ -89,9 +99,9 @@ class SeleniumBase extends DriverFactory {
 	protected Object[][] getTestData(){
 		return new Object[][]{
 				{"seattle"},
-//				{"key arena"},
-//				{"antique road show"},
-//				{"seahawks"},{"seattle storm"},
+				//				{"key arena"},
+				//				{"antique road show"},
+				//				{"seahawks"},{"seattle storm"},
 				{"mariners"}
 		};
 	}	
@@ -107,12 +117,12 @@ class GoogleLoginPage {
 		driver.get(URL);
 		driver.manage().window().maximize();
 	}
-	
+
 	@FindBy(xpath = "//*[@name='q']")
 	private WebElement searchBox;
-	
-//	@FindBy(name = "q")
-//	private WebElement searchBox;
+
+	//	@FindBy(name = "q")
+	//	private WebElement searchBox;
 
 	public void searchGoogle(String term) throws Exception {
 		WebDriver driver = DriverFactory.getWebDriver();
