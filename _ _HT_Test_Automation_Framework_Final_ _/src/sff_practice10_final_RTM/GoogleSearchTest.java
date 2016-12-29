@@ -24,7 +24,7 @@ import static sff_practice10_final_RTM.DriverType.CHROME;
  * interface Driver
  * 
  */
-interface DriverOOPS! {
+interface Driver {
 	public WebDriver getWebDriver();
 }
 
