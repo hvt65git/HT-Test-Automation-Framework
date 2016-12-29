@@ -1,0 +1,20 @@
+[1128/154546:ERROR:file_io.cc(41)] write: The pipe is being closed. (0xE8)
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffde000, size 0x230 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffdd000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffda000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffaf000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffac000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffa6000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffa3000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfffa0000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfff9d000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfff9a000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfff97000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfff94000, size 0xf84 fully unreadable
+[1128/164025:ERROR:process_info.cc(608)] range at 0xfff91000, size 0xf84 fully unreadable
+[1130/200432:ERROR:settings.cc(261)] Settings magic is not 1129342067
+[1201/011340:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1211/020406:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1211/030052:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1218/145901:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1228/001921:ERROR:file_io.cc(30)] read: expected 36, observed 0

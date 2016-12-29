@@ -1,0 +1,12 @@
+in getTestData()... rome
+in getTestData()... seattle
+in getTestData()... china
+in getTestData()... new york city
+in getTestData()... pasadena
+in getTestData()... tibet
+The search result was successful for term: tibet
+The search result was successful for term: rome
+The search result was successful for term: seattle
+The search result was successful for term: new york city
+The search result was successful for term: china
+The search result was successful for term: pasadena

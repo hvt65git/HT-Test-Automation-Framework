@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" name="Failed suite [Smoke suite]" parallel="methods">
+  <parameter name="suite-param" value="CHROME"/>
+  <test name="Default test(failed)" parallel="methods">
+    <classes>
+      <class name="tests.GoogleSearchSniffTest">
+        <methods>
+          <include name="initWebDriver"/>
+          <include name="releaseWebDriver"/>
+          <include name="test" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- tests.GoogleSearchSniffTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Smoke suite] -->

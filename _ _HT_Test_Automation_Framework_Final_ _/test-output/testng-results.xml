@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37768" started-at="2016-12-28T08:19:01Z" finished-at="2016-12-28T08:19:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37768" started-at="2016-12-28T08:19:01Z" finished-at="2016-12-28T08:19:39Z">
+      <class name="sff_practice10_final_RTM.GoogleSearchTest">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="createWebDriver" is-config="true" duration-ms="3465" started-at="2016-12-28T00:19:01Z" finished-at="2016-12-28T00:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="test" duration-ms="16441" started-at="2016-12-28T00:19:05Z" data-provider="testDataProvider" finished-at="2016-12-28T00:19:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seattle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="releaseWebDriver" is-config="true" duration-ms="1442" started-at="2016-12-28T00:19:21Z" finished-at="2016-12-28T00:19:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="createWebDriver" is-config="true" duration-ms="2317" started-at="2016-12-28T00:19:23Z" finished-at="2016-12-28T00:19:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="test" duration-ms="13097" started-at="2016-12-28T00:19:25Z" data-provider="testDataProvider" finished-at="2016-12-28T00:19:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mariners]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff_practice10_final_RTM.GoogleSearchTest@56cbfb61]" name="releaseWebDriver" is-config="true" duration-ms="958" started-at="2016-12-28T00:19:38Z" finished-at="2016-12-28T00:19:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- sff_practice10_final_RTM.GoogleSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
