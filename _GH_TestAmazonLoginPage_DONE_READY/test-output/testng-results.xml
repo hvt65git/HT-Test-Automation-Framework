@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65571" started-at="2016-11-29T10:19:50Z" finished-at="2016-11-29T10:20:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65571" started-at="2016-11-29T10:19:50Z" finished-at="2016-11-29T10:20:56Z">
+      <class name="com.amazon.Testcases.VerifyLoginAmazon">
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:com.amazon.Testcases.VerifyLoginAmazon@6a472554]" name="initDriver" is-config="true" duration-ms="16227" started-at="2016-11-29T02:19:50Z" finished-at="2016-11-29T02:20:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.amazon.Testcases.VerifyLoginAmazon@6a472554]" name="test" duration-ms="47720" started-at="2016-11-29T02:20:06Z" finished-at="2016-11-29T02:20:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.amazon.Testcases.VerifyLoginAmazon@6a472554]" name="cleanup" is-config="true" duration-ms="1586" started-at="2016-11-29T02:20:54Z" finished-at="2016-11-29T02:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+      </class> <!-- com.amazon.Testcases.VerifyLoginAmazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
