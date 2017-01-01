@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Please enter your Celcius temperature and click the submit button.");
+        return false;
+    }
+    else{
+		var f = x * (9/5) + 32;
+		alert("Your Farenheight temperature is: " + f + "!");
+    }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" onsubmit="return validateForm()">
+Hi Allie! Please enter Celcius temperature: <input type="text" name="fname">
+<input type="submit" value="Submit!">
+</form>
+
+</body>
+</html>
