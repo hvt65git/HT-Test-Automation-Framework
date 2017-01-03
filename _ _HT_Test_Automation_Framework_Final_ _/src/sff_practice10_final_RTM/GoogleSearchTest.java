@@ -24,7 +24,7 @@ import static sff_practice10_final_RTM.DriverType.CHROME;
  * interface Driver
  * 
  */
-interface Driver bugbug {
+interface Driver {
 	public WebDriver getWebDriver();
 }
 
@@ -99,9 +99,9 @@ class SeleniumBase extends DriverFactory {
 	protected Object[][] getTestData(){
 		return new Object[][]{
 				{"seattle"},
-				//				{"key arena"},
-				//				{"antique road show"},
-				//				{"seahawks"},{"seattle storm"},
+				{"key arena"},
+				{"antique road show"},
+				{"seahawks"},{"seattle storm"},
 				{"mariners"}
 		};
 	}	
@@ -172,7 +172,7 @@ public class GoogleSearchTest extends SeleniumBase {
 		googleSearchTest(term);
 	}
 
-	@DataProvider(parallel = false)
+	@DataProvider(parallel = true)
 	public Object[][] testDataProvider(){
 		return getTestData();
 	}

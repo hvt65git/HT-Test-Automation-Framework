@@ -18,3 +18,4 @@
 [1211/030052:ERROR:file_io.cc(30)] read: expected 36, observed 0
 [1218/145901:ERROR:file_io.cc(30)] read: expected 36, observed 0
 [1228/001921:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1231/235129:ERROR:file_io.cc(30)] read: expected 36, observed 0
