@@ -2,69 +2,69 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34136" started-at="2017-01-13T09:21:06Z" finished-at="2017-01-13T09:21:40Z">
+  <suite name="Default suite" duration-ms="15530" started-at="2017-01-18T19:49:58Z" finished-at="2017-01-18T19:50:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34136" started-at="2017-01-13T09:21:06Z" finished-at="2017-01-13T09:21:40Z">
-      <class name="sff_practice14.GoogleSearchTest">
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="8364" started-at="2017-01-13T01:21:06Z" finished-at="2017-01-13T01:21:14Z">
+    <test name="Default test" duration-ms="15530" started-at="2017-01-18T19:49:58Z" finished-at="2017-01-18T19:50:13Z">
+      <class name="sff_practice15.GoogleSearchTest">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="4669" started-at="2017-01-18T11:49:58Z" finished-at="2017-01-18T11:50:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="test" duration-ms="6618" started-at="2017-01-13T01:21:14Z" data-provider="getTestData" finished-at="2017-01-13T01:21:21Z">
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="4513" started-at="2017-01-18T11:49:58Z" finished-at="2017-01-18T11:50:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="3642" started-at="2017-01-18T11:49:58Z" finished-at="2017-01-18T11:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createWebDriver -->
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="test" duration-ms="7379" started-at="2017-01-18T11:50:01Z" data-provider="testDataProvider" finished-at="2017-01-18T11:50:09Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[seattle seahawks]]>
+                <![CDATA[hello world]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="ReleaseWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="ReleaseWebDriver" is-config="true" duration-ms="2353" started-at="2017-01-13T01:21:21Z" finished-at="2017-01-13T01:21:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReleaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="2343" started-at="2017-01-13T01:21:23Z" finished-at="2017-01-13T01:21:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="test" duration-ms="5475" started-at="2017-01-13T01:21:25Z" data-provider="getTestData" finished-at="2017-01-13T01:21:31Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="test" duration-ms="9496" started-at="2017-01-18T11:50:02Z" data-provider="testDataProvider" finished-at="2017-01-18T11:50:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[sounders]]>
+                <![CDATA[seahawks]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="ReleaseWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="ReleaseWebDriver" is-config="true" duration-ms="1000" started-at="2017-01-13T01:21:31Z" finished-at="2017-01-13T01:21:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReleaseWebDriver -->
-        <test-method status="PASS" signature="createWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="createWebDriver" is-config="true" duration-ms="2290" started-at="2017-01-13T01:21:32Z" finished-at="2017-01-13T01:21:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createWebDriver -->
-        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="test" duration-ms="4618" started-at="2017-01-13T01:21:34Z" data-provider="getTestData" finished-at="2017-01-13T01:21:39Z">
+        <test-method status="PASS" signature="test(java.lang.String)[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="test" duration-ms="9836" started-at="2017-01-18T11:50:03Z" data-provider="testDataProvider" finished-at="2017-01-18T11:50:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[amazon.com]]>
+                <![CDATA[seattle sounders]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="ReleaseWebDriver()[pri:0, instance:sff_practice14.GoogleSearchTest@d041cf]" name="ReleaseWebDriver" is-config="true" duration-ms="1017" started-at="2017-01-13T01:21:39Z" finished-at="2017-01-13T01:21:40Z">
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="releaseWebDriver" is-config="true" duration-ms="1483" started-at="2017-01-18T11:50:09Z" finished-at="2017-01-18T11:50:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReleaseWebDriver -->
-      </class> <!-- sff_practice14.GoogleSearchTest -->
+        </test-method> <!-- releaseWebDriver -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="releaseWebDriver" is-config="true" duration-ms="1096" started-at="2017-01-18T11:50:12Z" finished-at="2017-01-18T11:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+        <test-method status="PASS" signature="releaseWebDriver()[pri:0, instance:sff_practice15.GoogleSearchTest@d041cf]" name="releaseWebDriver" is-config="true" duration-ms="973" started-at="2017-01-18T11:50:12Z" finished-at="2017-01-18T11:50:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- releaseWebDriver -->
+      </class> <!-- sff_practice15.GoogleSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
