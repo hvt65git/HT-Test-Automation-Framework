@@ -1,8 +1,11 @@
 package sff_practice_21;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -75,6 +78,22 @@ class SeleniumBase extends DriverFactory {
 	public Object[][] getTestData() {
 		return testData;
 	}	
+}
+
+class GoogleSearchPage {
+	private final String URL = "http://google.com";
+	private final long WAIT_TIMEOUT = 20;
+	
+	@FindBy(xpath = "//*[@name='q']")
+	WebElement txtBox;
+	
+	public GoogleSearchPage() {
+		WebDriver driver = DriverFactory.getWebDriver();
+		PageFactory.initElements(driver,this);
+		driver.get(URL);
+		driver.manage().window().maximize();
+	}
+	
 }
 
 public class GoogleSmokeTest extends SeleniumBase {
