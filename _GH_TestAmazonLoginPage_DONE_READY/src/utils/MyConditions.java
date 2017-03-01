@@ -21,7 +21,6 @@ public class MyConditions {
 	  public static ExpectedCondition<Boolean> javaScriptThrowsNoExceptions(
 	    final String javaScript) {
 	    return new ExpectedCondition<Boolean>() {
-	      @Override
 	      public Boolean apply(WebDriver driver) {
 	        try {
 	          ((JavascriptExecutor) driver).executeScript(javaScript);

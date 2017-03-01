@@ -26,10 +26,10 @@ public class LoginPage {
 		wait = new WebDriverWait(this.driver,18);
 	}
 
-	@FindBy(how=How.XPATH, using= "//span[text()='Hello. Sign in']")
+	@FindBy(xpath = "//span[text()='Hello. Sign in']")
 	WebElement sign_in_link;
 
-	@FindBy(how=How.XPATH, using= "//*[@id='ap_email']")
+	@FindBy(xpath = "//*[@id='ap_email']")
 	WebElement username;
 
 	@FindBy(how=How.XPATH, using="//*[@id='ap_password']")
