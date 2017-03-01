@@ -167,17 +167,16 @@ public class GoogleSmokeTest extends SeleniumBase {
 								}
 							})
 					);
-			
+
 			//another way - using Predicate (lambda exp)
 			Wait<WebDriver> wait = new WebDriverWait(getWebDriver(),WAIT_TIMEOUT);
 			Assert.assertTrue(wait.until(d->d.getTitle().contains(term))
 					);
 
-			//last way with Predicate
-			
-		Predicate<WebDriver> titleContainsTerm = d -> d.getTitle().contains(term);
-		new WebDriverWait(getWebDriver(),WAIT_TIMEOUT)
-		.until(titleContainsTerm);
+			//last way with Predicate 
+			Predicate<WebDriver> titleContainsTerm = d -> d.getTitle().contains(term);
+			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT)
+			.until(titleContainsTerm);
 
 		}
 		catch(Exception e) {
