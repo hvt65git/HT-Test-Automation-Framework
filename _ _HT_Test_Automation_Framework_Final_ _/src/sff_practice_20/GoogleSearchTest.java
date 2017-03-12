@@ -182,12 +182,12 @@ public class GoogleSearchTest extends SeleniumBase {
 				}
 			};
 			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT)
-			.until(titleContainsTerm);
+			.until( d->d.getTitle().contains(term)); //YAYAY! WE CAN DO LAMBAS IN WEBDRIVERWAIT.UNTIL NOW IN 3.0!!!
 			
 			//(7)
 			Predicate<WebDriver> titleContainsTerm2 = d->d.getTitle().contains(term);
 			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT)
-			.until(titleContainsTerm2);
+			.until( d->d.getTitle().contains(term));
 			
 		}
 		catch(Exception e) {

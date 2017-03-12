@@ -162,8 +162,8 @@ public class GoogleSearchTest extends SeleniumBase {
 			
 			//(4) Predicate but cannot use Assert since return is not a Boolean
 			//note: void org.openqa.selenium.support.ui.FluentWait.until(Predicate<WebDriver> isTrue)
-			Predicate<WebDriver> titleContainsTerm = d->d.getTitle().contains(term);
-			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(titleContainsTerm);
+			//fixed in 3.0! Predicate<WebDriver> titleContainsTerm = d->d.getTitle().contains(term);
+			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(d->d.getTitle().contains(term));
 					
 
 
