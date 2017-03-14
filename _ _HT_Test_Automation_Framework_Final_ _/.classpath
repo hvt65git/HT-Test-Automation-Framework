@@ -47,5 +47,6 @@
 	<classpathentry kind="lib" path="C:/jars/selenium-java-3.3.0/lib/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="C:/jars/selenium-java-3.3.0/lib/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/jars/selenium-java-3.3.0/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/jars/log4j second attempt/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -151,7 +151,7 @@ public class GoogleSearchTest extends SeleniumBase {
 			//(5) using a Predicate without Assert  - FluentWait implementation
 			Predicate<WebDriver> titleContainsTerm = d->d.getTitle().contains(term);
 			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT).
-			until(titleContainsTerm);
+			until(d->d.getTitle().contains(term));
 		
 
 		}

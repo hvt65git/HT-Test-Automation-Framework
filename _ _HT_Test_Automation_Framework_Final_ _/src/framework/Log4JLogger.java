@@ -17,8 +17,10 @@ public class Log4JLogger {
 	
 	public static Logger initLog4JLogging() throws IOException, FileNotFoundException{
 		Logger log = Logger.getLogger(Log4JLogger.class);
+
 		Properties props = new Properties();
 		props.load(new FileInputStream(System.getProperty("user.dir") + "\\props\\log4j.properties"));
+		
 		PropertyConfigurator.configure(props);
 		System.setProperty("log4j.configuration", "set") ;
 		System.setProperty("org.apache.commons.logging.Log","org.apache.commons.logging.impl.Jdk14Logger");

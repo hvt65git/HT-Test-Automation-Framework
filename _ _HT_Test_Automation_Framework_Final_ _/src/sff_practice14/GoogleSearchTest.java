@@ -136,7 +136,7 @@ public class GoogleSearchTest extends SeleniumBase  {
 			//(3) use predicate but return type is void and
 			//would receiyCannot cast from void to Boolean
 			Predicate<WebDriver> condition = d->d.getTitle().contains(term);
-			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT).until(condition);
+			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT).until(d->d.getTitle().contains(term));
 			
 		}
 		catch(Exception e){

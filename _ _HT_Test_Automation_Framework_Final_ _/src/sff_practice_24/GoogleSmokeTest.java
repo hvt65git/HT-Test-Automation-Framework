@@ -160,7 +160,7 @@ public class GoogleSmokeTest extends SeleniumBase {
 			
 			//(4) Predicate - cant assert because return is not a Boolean type
 			Predicate<WebDriver> titleContains = d->d.getTitle().contains(term);
-			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(titleContains);
+			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(d->d.getTitle().contains(term));
 
 		}
 		catch(Exception e) {

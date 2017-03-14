@@ -174,7 +174,7 @@ public class GoogleSmokeTest extends SeleniumBase {
 			//(5) - use Predicate<WebDriver> object
 			Predicate<WebDriver> titleContainsTerm = d->d.getTitle().contains(term);
 			new WebDriverWait(getWebDriver(), WAIT_TIMEOUT)
-			.until(titleContainsTerm);
+			.until(d->d.getTitle().contains(term));
 		}
 		catch(Exception e) {
 			Assert.assertTrue(false);

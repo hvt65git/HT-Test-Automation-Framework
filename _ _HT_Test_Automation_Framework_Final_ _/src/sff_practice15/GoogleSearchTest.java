@@ -131,7 +131,7 @@ public class GoogleSearchTest extends SeleniumBase {
 
 		//no assert - using Predicate obj ref
 		Predicate<WebDriver> condition = d->d.getTitle().contains(term);
-		new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(condition);
+		new WebDriverWait(getWebDriver(), WAIT_TIMEOUT).until(d->d.getTitle().contains(term));
 	}
 
 	@Test(dataProvider = "testDataProvider")

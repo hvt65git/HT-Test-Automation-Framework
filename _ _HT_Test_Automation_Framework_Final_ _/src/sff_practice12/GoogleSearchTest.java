@@ -145,8 +145,8 @@ public class GoogleSearchTest extends SeleniumBase {
 
 
 			//or- THIS WORKED!
-			Predicate<WebDriver> titleContainsTerm = (d)->d.getTitle().contains(term);
-			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT).until(titleContainsTerm);
+			Predicate<WebDriver> titleContainsTerm = (d)->d.getTitle().contains(term);//Sel 3.0 - no longer need this workaround
+			new WebDriverWait(getWebDriver(),WAIT_TIMEOUT).until(d->d.getTitle().contains(term));
 
 		}
 		catch(Exception e) {
