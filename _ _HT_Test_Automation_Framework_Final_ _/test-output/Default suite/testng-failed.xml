@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="sff_practice_24.GoogleSmokeTest">
+      <class name="sff_practice_20.GoogleSearchTest">
         <methods>
-          <include name="createWebDriver"/>
-          <include name="test" invocation-numbers="0 1 2 3"/>
+          <include name="googleSmokeTest" invocation-numbers="0 1 2"/>
           <include name="releaseWebDriver"/>
+          <include name="createWebDriver"/>
         </methods>
-      </class> <!-- sff_practice_24.GoogleSmokeTest -->
+      </class> <!-- sff_practice_20.GoogleSearchTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

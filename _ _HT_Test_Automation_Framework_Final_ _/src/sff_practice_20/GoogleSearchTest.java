@@ -204,7 +204,7 @@ public class GoogleSearchTest extends SeleniumBase {
 		googleSearchTest(term);
 	}
 
-	@DataProvider(parallel = true)
+	@DataProvider(parallel = false)
 	public Object[][] testDataProvider() {
 		return getTestData();
 	}
